@@ -1,0 +1,25 @@
+/* Lista / <List> */
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+    padding: 30px;
+}
+
+.btn {
+    background: transparent;
+    border: solid 1px;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    color: salmon;
+    transition: background 0.3s;
+    margin: 30px;
+}
+
+.btn:hover {
+    color: white;
+    background: salmon;
+}
